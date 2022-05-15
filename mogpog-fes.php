@@ -19,7 +19,7 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
 					<li><a href="explore.php">Explore</a></li>
-					<li><a href="contact.php">Contacts</a></li>
+					<li><a href="contacts.php">Contacts</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -32,10 +32,10 @@
 	<h1 style="color: black; font-size:50px; text-align:center;">FAMOUS FESTIVALS IN MOGPOG</h1>
 	<div class="container" style="height: 1000px;">
 		<div class="ctr">
-  			<img src="images/kangga festival.jpeg"  style="width:100%; height: 300px; ">
+  			<img src="images/kangga festival.jpeg"  style="width:100%; height: 300px; ">>
   			<div class="ct"  style="box-shadow: rgba(0, 0, 0, 0.24)0px 7px 15px;">
   					<?php 
-  					echo '<span style="font-size: 30px; font-weight: bold;"> ' . "<br><br> KANGA FESTIVAL".  '</span><br>';
+  					echo '<span style="font-size: 30px; font-weight: bold;"> ' . "<br><br> ATI-ATIHAN FESTIVAL".  '</span><br>';
 
 						echo "<br>";
 							echo '<span style="color: white; font-size: 15px; margin top: 15px;"> ' . "During the month of May, the people of the agricultural town of Mogpog in Marinduque celebrates their thanksgiving festival for their annual harvests in honor of their patron saint, San Isidro Labrador. The aim of this festival is to pay tribute to the saint and to the farmers who made a solemn effort on their land for numerous months. Kangga Festival was implemented by the local government which is celebrated annually to correspond with San Isidro Labrador’s feast day of May 13.“Kangga” in Marinduquenian Tagalog, is a sled made of bamboo usually carried by carabao. It is used by farmers to transport tools or harvests from their homes to the fields or to the market.<br>".  '</span><br>';
@@ -46,7 +46,7 @@
 		</div>
 
 		<div class="ctr">
-  			<img src="images/moriones festival (2).jpg"  style="width:100%; height: 300px; ">
+  			<img src="images/moriones festival (2).jpg"  style="width:100%; height: 300px; ">>
   		 <div class="ct"  style="box-shadow: rgba(0, 0, 0, 0.24)0px 7px 15px;">
   		 	<?php 
   					echo '<span style="font-size: 30px; font-weight: bold margin top:10px;"> ' . "<br><br> MORIONES FESTIVAL".  '</span><br>';
