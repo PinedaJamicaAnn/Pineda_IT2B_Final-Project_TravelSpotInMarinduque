@@ -121,7 +121,7 @@
 		<navigation no="3">About</navigation>
 		<navigation no="4">Contacts</navigation>
 
-		<image>Map of Marinduque<image>
+		<image>Map of Marinduque</image>
 
 		<municipality>
 			<boac>
@@ -263,7 +263,7 @@
 			<social-media link="3">Twitter</social-media>
 			<social-media link="4">LinkedIn</social-media>
 		</footer>
-	</image></image></explore>
+	</explore>
 
 	<about>
 
