@@ -28,9 +28,9 @@
 		</nav>
 			<div class="visit">
 			<h1 style="margin-top: -10px; text-align: center; font-size: 60px;">MARINDUQUE PROVIENCE</h1>
-			<div class="contact-box"style=" background-color: whitesmoke; border-radius: 60px;">
+			<div class="contact-box"style=" background-color: whitesmoke; border-radius: -100px;">
 
-				<div class="visit">
+				<div class="visit" style="padding: 100px;">
 							<?php 
  
 						echo '<span style="color: black; font-size: 15px; margin top: 15px;"> ' . " Marinduque  is an island province in the Philippines located in Southwestern Tagalog Region or Mimaropa, formerly designated as Region IV-B. Its capital is the municipality of Boac. Marinduque lies between Tayabas Bay to the north and Sibuyan Sea to the south. It is west of the Bondoc Peninsula of Quezon province; east of Mindoro Island; and north of the island province of Romblon. Some parts of the Verde Island Passage, the center of the center of world's marine biodiversity and a protected marine area, are also within Marinduque's provincial waters.
