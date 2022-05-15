@@ -19,8 +19,8 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><a href="feedback.php">Blogs</a></li>
-					<li><a href="contacts.php">Contacts</a></li>
+					<li><a href="explore.php">Explore</a></li>
+					<li><a href="contact.php">Contacts</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -95,7 +95,7 @@
 					echo '<span style="color: black; font-size: 9px;" >"Known for its white sand beaches, specifically the Poctoy White Beach"</span><br><br>';
                     ?>
 
-					<a href="torrijos.php"><button class="button"> EXPLORE </button></a>
+					<a href="marella edit webpage//torrijos.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -110,7 +110,7 @@
 					echo '<span style="color: black; font-size: 9px;" > "Home of best tourist spot in Marinduque" </span><br><br>';
                   ?>
 
-					<a href="gasan.php"><button class="button"> EXPLORE </button></a>
+					<a href="marella edit webpage/gasan.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 

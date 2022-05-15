@@ -19,8 +19,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="explore.html">Explore</a></li>
-					<li><a href="feedback.html">Blogs</a></li>
-					<li><a href="contacts.html">Contacts</a></li>
+					<li><a href="contact.html">Contacts</a></li>
 				</ul>
 			</div>
 		</nav>
