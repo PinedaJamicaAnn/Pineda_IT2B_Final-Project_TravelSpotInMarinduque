@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE travel-spot [
+<!ELEMENT travel-spot (home, explore, about, contacts )>
+<!ELEMENT home ()>
+<!ELEMENT explore (navigation, image, municipality, footer)>
+<!ELEMENT municipality (boac, santa-cruz, mogpog, torrijos, gasan, buenavista)>
+<!ELEMENT torrijos (navigation, food, place, festival, footer)>
+<!ELEMENT food (sinalab, niyubak, lomi)>
+<!ELEMENT place (payanas-view-deck, bangwayin-farm, battle-of-pulang-lupa, poctoy-white-beach)>
+<!ELEMENT festival (tuba-festival, moriones-festival)>
+<!ELEMENT gasan (navigation, food, place, festival, footer)>
+<!ELEMENT food (saludsod, ginataang-katang)>
+<!ELEMENT place (gaspar-island, gasan-church, sunflower-farm)>
+<!ELEMENT festival (gasang-gasang-festival, moriones-festival)>
+<!ELEMENT buenavista (navigation, food, place, festival, footer)>
+<!ELEMENT food (coco-sugar, bagoong-patis)>
+<!ELEMENT place (malbog-hot-spring, mt-malindig, balanacan-view-deck)>
+<!ELEMENT festival (malindog-tubaan-festival, kalesayahan-festival, moriones-festival)>
+<!ELEMENT footer (website-name, address, tel-num, social-media)>
+<!ELEMENT about (navigation, stud-name, footer)>
+<!ELEMENT stud-name (role, gmail, description, social-media)>
+
+
+
+<!ELEMENT travel-spot (#PCDATA)>
+<!ELEMENT navigation (#PCDATA)>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT explore (#PCDATA)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT contacts (#PCDATA)>
+<!ELEMENT municipality (#PCDATA)>
+<!ELEMENT boac (#PCDATA)>
+<!ELEMENT santa-cruz (#PCDATA)>
+<!ELEMENT mogpog (#PCDATA)>
+<!ELEMENT torrijos (#PCDATA)>
+<!ELEMENT gasan (#PCDATA)>
+<!ELEMENT buenavista (#PCDATA)>
+<!ELEMENT food (#PCDATA)>
+<!ELEMENT festival (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT sinalab (#PCDATA)>
+<!ELEMENT niyubak (#PCDATA)>
+<!ELEMENT lomi (#PCDATA)>
+<!ELEMENT payanas-view-deck (#PCDATA)>
+<!ELEMENT bangwayin-farm (#PCDATA)>
+<!ELEMENT battle-of-pulang-lupa (#PCDATA)>
+<!ELEMENT tuba-festival (#PCDATA)>
+<!ELEMENT moriones-festival (#PCDATA)>
+<!ELEMENT saludsod (#PCDATA)>
+<!ELEMENT ginataang-katang (#PCDATA)>
+<!ELEMENT gaspar-island (#PCDATA)>
+<!ELEMENT gasan-church (#PCDATA)>
+<!ELEMENT sunflower-farm (#PCDATA)>
+<!ELEMENT gasang-gasang-festival (#PCDATA)>
+<!ELEMENT coco-sugar (#PCDATA)>
+<!ELEMENT bagoong-patis (#PCDATA)>
+<!ELEMENT malbog-hot-spring (#PCDATA)>
+<!ELEMENT mt-malindig (#PCDATA)>
+<!ELEMENT balanacan-view-deck (#PCDATA)>
+<!ELEMENT malindog-tubaan-festival (#PCDATA)>
+<!ELEMENT kalesayahan-festival (#PCDATA)>
+<!ELEMENT footer (#PCDATA)>
+<!ELEMENT website-name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT tel-num (#PCDATA)>
+<!ELEMENT social-media (#PCDATA)>
+<!ELEMENT stud-name (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT gmail (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT social-media (#PCDATA)>
+
+<!ATTLIST navigation no CDATA #REQUIRED>
+<!ATTLIST  food origin CDATA #REQUIRED>
+<!ATTLIST place origin CDATA #REQUIRED>
+<!ATTLIST festival origin CDATA #REQUIRED>
+<!ATTLIST social-media link CDATA #REQUIRED>
+<!ATTLIST stud-name no CDATA #REQUIRED>
+
+
+]>
+
+<travel-spot>
+	<home>
+
+	</home>
+
+	<explore>
+		<navigation no="1">Home</navigation>
+		<navigation no="2">Explore</navigation>
+		<navigation no="3">About</navigation>
+		<navigation no="4">Contacts</navigation>
+
+		<image>Map of Marinduque<image>
+
+		<municipality>
+			<boac></boac>
+			<santa-cruz></santa-cruz>
+			<mogpog></mogpog>
+
+			<torrijos>
+				<food origin="torrijos">
+					<sinalab>It is like a paper-thin pancake consisting of overripe saba or latundan mixed with flour and some buko slices sandwiched between two banana leaves. It is then placed in a big carajay and turned over from time to time until both sides of the leaves are brown and wrinkled.</sinalab>
+					<niyubak>Nilubak or niyupak is a boiled green sabas are pounded with a lusong (pestle) together with grated coconut and sugar. The process of making niyubak is done through pounding of bananas, while the coconut was gradually added, until the consistensy is thick and sticky.</niyubak>
+					<lomi>Lomi is another famous dish in torrijos, it is made with a variety of thick fresh egg noodles of about a quarter of an inch in diameter, soaked in lye water to give it more texture.</lomi>
+				</food>
+
+				<place origin="torrijos">
+					<payanas-view-deck>One of torrijos' tourist spot located at Payanas, Torrijos, Marinduque. It is perfect for those who like to take instagramable photos because of its location where a perfect view can be seen.</payanas-view-deck>
+					<bangwayin-farm>Located at Bangwayin, Torrijos, Marinduque. This place is perfect for the person who likes to unwind, those who like calming place because of its high location where a perfect scenery can be seen.</bangwayin-farm>
+					<battle-of-pulang-lupa>For those person who likes to go to historic places, this one is perfect for you. The Battle of Pulang Lupa Marker was built in memory of the Marinduque revolutionary forces that fought the Americans. A marker stands at the site of the bloodiest battle ever fought in the island, the first known major battle won by the Filipinos over the Americans. So you can enjoy the visit while also learning about history.</battle-of-pulang-lupa>
+					<poctoy-white-beach>Known as the best beach alternative to Boracay, this is considered as one of the finest beaches in Marinduque. It boasts of the be stunning white sands, clear waters and a beautiful scenery that you can enjoy while doing various activities such as surfing, diving, and snorkeling.</poctoy-white-beach>
+				</place>
+
+				<festival origin="torrijos">
+					<tuba-festival>A festival where the people of torrijos honors the MANGANGARIT and TUBA drinking. That was held every 17th of January. It coincides with the town fiesta. And celebrated through street dancing utilizing props of bamboo and coconut materials accompanied by drum and lyre bands. </tuba-festival>
+					<moriones-festival>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The 'Moriones' are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals.</moriones-festival>
+				</festival>
+
+			</torrijos>
+
+			<gasan>
+				<food origin="gasan">
+					<saludsod>It is made from arrowroot powder, coconut milk, flour, and sugar. These ingredients are mixed, then scooped into a pan just like how the usual pancake is made. </saludsod>
+					<ginataang-katang>Ginataang Katang(crab) is one of the local dish in gasan. It is a crab that is cooked in coconut milk alongside with squash and string beans</ginataang-katang>
+				</food>
+
+				<place origin="gasan">
+					<gaspar-island>Gaspar Island is a popular destination because of its beautiful beachscape and relatively larger beach compared to the other two. This populated island is the perfect place to relax, unwind, and enjoy the rustic life of the province</gaspar-island>
+					<gasan-church>The St. Joseph Parish Church is located at the poblacion of Gasan, Marinduque. You would easily see it since the reddish church is located at the top of a hill, overlooking the town of Gasan.</gasan-church>
+					<sunflower-farm>Sunflower Farm is one of the newest toruist attraction in mMarinduque, aside from the sunflowers, they also have other flowering plants and soon will have fruit picking as part of the activities at the farm.</sunflower-farm>
+				</place>
+
+				<festival origin="gasan">
+					<gasang-gasang-festival>Gasang-gasang Festival is a yearly colorful Easter Sunday festival in the town of Gasan, province of Marinduque. It is in celebration of the origin of the name of the town 'Gasan', which came from the term 'Gasang-Gasang', a type of coral that used to be seen around the town's shoreline.</gasang-gasang-festival>
+					<moriones-festival>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The 'Moriones' are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals.</moriones-festival>
+				</festival>
+			</gasan>
+
+			<buenavista>
+				<food origin="buenavista">
+					<coco-sugar>This particular sweetener is yielded from the sap of coconuts and is processed in double jacketed kettles placed under high heat. Coco sugar is considered to be the best alternative for health conscious consumers and diabetics for its low glycemic index and is chemical free.</coco-sugar>
+					<bagoong-patis>Buenavista Bagoong Producers Multi-Purpose Cooperative (BBPMPC), founded by 25 fisher folks from a small town in Marinduque, strives to promote special Asian condiments in a journey that enabled success through community development.</bagoong-patis>
+				</food>
+
+				<place origin="buenavista">
+					<malbog-hot-spring>Malbog Sulfuric Hot Spring Resort or “Mabaho” is located at the foot of the mountain in Brgy. Malbog, Buenavista, Marinduque.  The hot spring has sulfur content popularly used for skin care and treatments.  Despite its rotten-egg like foul, many locals and tourists visit this place for body relaxation and healing of skin conditions. Some are even bringing home bottles of sulfuric water.</malbog-hot-spring>
+					<mt-malindig>Majestically standing on an elevation of 1,157 meters above sea level, Mount Malindig is a must-visit Buenavista Marinduque tourist spot and is considered the highest peak in the province. It is a stratovolcano situated at the island’s southern tip and west side of the Bondoc Peninsula on Luzon Island.</mt-malindig>
+					<balanacan-view-deck>Offshore from Balanacan Pier it’s fine nature harbor is an imposing statue of Ina ng Biglang Awa with it’s view deck. Can be good for souvenir photo shots.</balanacan-view-deck>
+				</place>
+
+				<festival origin="buenavista">
+					<malindog-tubaan-festival>A newly organized festival of street dancing competition in line with its town fiesta, in commemoration of the local coconut wine “tuba” industry and celebrating a legend of the beauty of Mount Malindig volcano, the highest peak of the island province.</malindog-tubaan-festival>
+					<kalesayahan-festival>Kalesayahan is a contraction of two Tagalog words, “kalesa”, a local horse-drawn vehicle and “kasayahan”, festivity. A festival celebrating kalesas in Gasan town during the past decade to generate interest in this form of local transportation and to preserve the few existing ones, has been successfully undertaken in the month of August of every year.</kalesayahan-festival>
+					<moriones-festival>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The 'Moriones' are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals.</moriones-festival>
+				</festival>
+
+			</buenavista>
+
+		</municipality>
+
+		<footer>
+			<website-name> 2022 Travel Marindque</website-name>
+			<address>Santa Cruz, Marinduque - Philippines</address>
+			<tel-num>Telephone no. (+63) (+63) 966-1690-4201. All Rights Reserved</tel-num>
+
+			<social-media link="1">Facebook</social-media>
+			<social-media link="2">Instagram</social-media>
+			<social-media link="3">Twitter</social-media>
+			<social-media link="4">LinkedIn</social-media>
+		</footer>
+	</explore>
+
+	<about>
+
+		<navigation no="1">Home</navigation>
+		<navigation no="2">Explore</navigation>
+		<navigation no="3">About</navigation>
+		<navigation no="4">Contacts</navigation>
+
+		<stud-name no="1"> Marella Buhay
+			<role> Web Designer/Programmer </role>
+			<description> Marella is a second year college student, currently taking Bachelor of Science in Information Technology at Marinduque State College.</description>
+			<gmail>marella.gutierrez84@gmail.com</gmail>
+			<social-media>Facebook</social-media>
+			<social-media>Twitter</social-media>
+			<social-media>Instagram</social-media>
+		</stud-name>
+
+		<stud-name no="2"> Jamica Ann R. Pineda
+			<role> Content Researcher/Programmer </role>
+			<description> Jamica is a second year college student, currently taking Bachelor of Science in Information Technology at Marinduque State College.</description>
+			<gmail>jamicaannpineda@gmail.com</gmail>
+			<social-media link="1">Facebook</social-media>
+			<social-media link="2">Twitter</social-media>
+			<social-media link="3">Instagram</social-media>
+		</stud-name>
+
+		<footer>
+			<website-name> 2022 Travel Marindque</website-name>
+			<address>Santa Cruz, Marinduque - Philippines</address>
+			<tel-num>Telephone no. (+63) (+63) 966-1690-4201. All Rights Reserved</tel-num>
+
+			<social-media link="1">Facebook</social-media>
+			<social-media link="2">Instagram</social-media>
+			<social-media link="3">Twitter</social-media>
+			<social-media link="4">LinkedIn</social-media>
+		</footer>
+
+	</about>
+
+	<contacts></contacts>
+
+</travel-spot> 
