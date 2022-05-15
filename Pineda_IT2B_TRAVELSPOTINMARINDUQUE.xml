@@ -2,27 +2,37 @@
 
 <!DOCTYPE travel-spot [
 <!ELEMENT travel-spot (home, explore, about, contacts )>
-<!ELEMENT home ()>
-<!ELEMENT explore (navigation, image, municipality, footer)>
-<!ELEMENT municipality (boac, santa-cruz, mogpog, torrijos, gasan, buenavista)>
-<!ELEMENT torrijos (navigation, food, place, festival, footer)>
-<!ELEMENT food (sinalab, niyubak, lomi)>
-<!ELEMENT place (payanas-view-deck, bangwayin-farm, battle-of-pulang-lupa, poctoy-white-beach)>
-<!ELEMENT festival (tuba-festival, moriones-festival)>
-<!ELEMENT gasan (navigation, food, place, festival, footer)>
-<!ELEMENT food (saludsod, ginataang-katang)>
-<!ELEMENT place (gaspar-island, gasan-church, sunflower-farm)>
-<!ELEMENT festival (gasang-gasang-festival, moriones-festival)>
-<!ELEMENT buenavista (navigation, food, place, festival, footer)>
-<!ELEMENT food (coco-sugar, bagoong-patis)>
-<!ELEMENT place (malbog-hot-spring, mt-malindig, balanacan-view-deck)>
+<!ELEMENT home (visit)>
+<!ELEMENT explore (navigation, image, municipality, footer )>
+<!ELEMENT municipality (boac, santa-cruz, mogpog, torrijos, gasan, buenavista )>
+<!ELEMENT boac (navigation, food, place, festival, footer )>
+<!ELEMENT food (bibingkang-boac, manakla)>
+<!ELEMENT place (immaculate-conception, natinal-museum, goodchow, laconcha, battle-of-paye, batterfly-farm, laylay-port,mt-baliis-sea-of-clouds)>
+<!ELEMENT festival (bila-bila-festival, moriones-festival )>
+<!ELEMENT santa-cruz (navigation, food, place, festival, footer )>
+<!ELEMENT food (panganan, arrowroot-cookies)>
+<!ELEMENT place (ungab-rock-formation, el-marinduquenos,bagumbungan-cave, kawa-kawa-falls, palad-sand-bar, hakupan-island, panuluyan, holy-cross-parish,saint-josesh-the-worker-parish-church, robys-bakeshoppe, dewey-hotel-and-resort, villa-de-arco, fun-island-regencia-hotel-and-resort, ricos-inn)>
+<!ELEMENT festival (ati-atihan-festival, moriones-festival)>
+<!ELEMENT mogpog (navigation, food, place, festival, footer )>
+<!ELEMENT food (dcm-bagoong-fish-sauce)>
+<!ELEMENT place (luzon-datum, san-isidro-labrador-parish-church, paadjao-fall)>
+<!ELEMENT festival (kangga-festival, moriones-festival)>
+<!ELEMENT torrijos (navigation, food, place, festival, footer )>
+<!ELEMENT food (sinalab, niyubak, lomi )>
+<!ELEMENT place (payanas-view-deck, bangwayin-farm, battle-of-pulang-lupa, poctoy-white-beach )>
+<!ELEMENT festival (tuba-festival, moriones-festival )>
+<!ELEMENT gasan (navigation, food, place, festival, footer )>
+<!ELEMENT food (saludsod, ginataang-katang )>
+<!ELEMENT place (gaspar-island, gasan-church, sunflower-farm )>
+<!ELEMENT festival (gasang-gasang-festival, moriones-festival )>
+<!ELEMENT buenavista (navigation, food, place, festival, footer )>
+<!ELEMENT food (coco-sugar, bagoong-patis )>
+<!ELEMENT place (malbog-hot-spring, mt-malindig, balanacan-view-deck )>
 <!ELEMENT festival (malindog-tubaan-festival, kalesayahan-festival, moriones-festival)>
-<!ELEMENT footer (website-name, address, tel-num, social-media)>
-<!ELEMENT about (navigation, stud-name, footer)>
-<!ELEMENT stud-name (role, gmail, description, social-media)>
-
-
-
+<!ELEMENT footer (website-name, address, tel-num, social-media )>
+<!ELEMENT about (navigation, stud-name, footer )>
+<!ELEMENT stud-name (role, gmail, description, social-media )>
+<!ELEMENT contact (connect-with-us)>
 <!ELEMENT travel-spot (#PCDATA)>
 <!ELEMENT navigation (#PCDATA)>
 <!ELEMENT home (#PCDATA)>
@@ -70,7 +80,7 @@
 <!ELEMENT gmail (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT social-media (#PCDATA)>
-
+<!ELEMENT contact (#PCDATA)>
 <!ATTLIST navigation no CDATA #REQUIRED>
 <!ATTLIST  food origin CDATA #REQUIRED>
 <!ATTLIST place origin CDATA #REQUIRED>
@@ -83,6 +93,25 @@
 
 <travel-spot>
 	<home>
+		<navigation no="1">Home</navigation>
+		<navigation no="2">Explore</navigation>
+		<navigation no="3">About</navigation>
+		<navigation no="4">Contacts</navigation>
+
+		<visit >
+			Marinduque is an island province in the Philippines located in Southwestern Tagalog Region or Mimaropa, formerly designated as Region IV-B. Its capital is the municipality of Boac. Marinduque lies between Tayabas Bay to the north and Sibuyan Sea to the south. It is west of the Bondoc Peninsula of Quezon province; east of Mindoro Island; and north of the island province of Romblon. Some parts of the Verde Island Passage, the center of the center of world's marine biodiversity and a protected marine area, are also within Marinduque's provincial waters. The province of Marinduque was ranked number 1 by the Philippine National Police and Philippine Security Forces as the 2013 Most Peaceful Province of the country due to its low crime rate statistics alternately ranking with the province of Batanes yearly. Furthermore, for almost 200 years, the province is home to one of the oldest religious festivals of the country, the Moriones celebrated annually every Holy Week.
+            WHAT DOES MARINDUQUE MEAN?
+             Marinduque Hispanized corruption of either malindig or malindug, which means “stand tall” or “elegant”, in reference to a potentially active volcano in the southern section of the island, the Mount Malindig.
+
+             The Marinduque provinceis divided into 6 Municipalities:
+              BOAC
+             MOGPOG
+             TORRIJOS
+             BUENAVISTA
+             SANTA CRUZ
+             GASAN
+		</visit>
+		<visit></visit>
 
 	</home>
 
@@ -95,9 +124,73 @@
 		<image>Map of Marinduque<image>
 
 		<municipality>
-			<boac></boac>
-			<santa-cruz></santa-cruz>
-			<mogpog></mogpog>
+			<boac>
+			<food origin="boac">
+					<bibingkang-boac>He Island province has several native versions of bibingka, a staple rice cake delicacy found all over the Philippines, with Bibingkang Lalaki (male bibingka) being just one of them. Bibingkang Lalaki is also referred to as Bibingkang Boac, named after the province’s capital. It’s a huge portion of bibingka; that’s the size of a pizza. Locals will explain amusedly that this version of bibingka is called as thus because it contains eggs. Bibingkang lalaki also uses coconut wine instead of yeast, which keeps its inside moist after cooking.</bibingkang-boac>
+			
+				<manakla>Manakla is the local Marinduque word for crayfish, and it’s a variety of crayfish especially popular in Marinduque, and is regularly used as a protein for every type of recipe you can think of.</manakla>
+				</food>
+             <place origin="boac">
+                 
+                 	<immaculate-conception>The Immaculate Conception Cathedral Parish, commonly referred to as Boac Cathedral, is a Roman Catholic church and cathedral in the town center of Boac, Marinduque, in the Mimaropa region of the Philippines.</immaculate-conception>
+             	<national-museum>The branch museum is housed in an old Spanish building that used to be a municipal court and library. Its collection includes materials reflecting the heritage and history of the region.</national-museum>
+                <goodchow>Good Chow - Mercader St (Restaurants) is located at Mercader St, Boac, Philippines. More information on this place.</goodchow>
+             	<laconcha>A long time family food business started by Mader Lily Lozano inspired by the love for cooking of her Mother in Law Concha Lozano, thus its name.
+                </laconcha>
+             	<battle-of-paye>The Battle of Paye, also known as the Battle of San Mateo, was a battle during the Philippine–American War between the United States and the Philippines.</battle-of-paye>
+             	<butterfly-farm>Butterfly farming is one of the major industries in Mariduque.</butterfly-farm>
+             	<laylay-port>Laylay Port, Boac, Marinduque is located at: Boac, Philippines.</laylay-port>
+             	<mt-baliis-sea-of-clouds>A sea of clouds or sea of fog is formed from stratus clouds or fog and does not show undulations. In both cases, the phenomenon looks very similar to the open ocean. At Mt. Baliis, Brgy. Bantay, Boac, Marinduque.</mt-baliis-sea-of-clouds>
+             </place>
+
+            <festival origin="boac">
+            	<bila-bila-festival>Bila- Bila Festival, Local term for butterflies, this street dancing competition and parade is held annually during the town fiesta of boac on December 8th. From five district of the municipality, everyone will compete for their performances.</bila-bila-festival>
+            	<moriones-festival>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The Moriones are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals. The Moriones tradition has inspired the creation of other festivals in the Philippines where cultural practices is turned into street festivals.
+              </moriones-festival>
+            </festival>
+
+			</boac>
+
+			<santa-cruz>
+				<food origin="santa-cruz"></food>
+				<panganan>With the abundance of arrowroot in Marinduque, it’s only fitting that they have something like the panganan as a local delicacy. Panganan is a dry powdery snack made with arrowroot powder and rice flour, called minatamis na bao, made from dissolved sugarcane jaggery.</panganan>
+                <arrowroot-cookies>Arrowroot cookies or popularly known as uraro, are the number one pasalubong food in Marinduque you can buy for your loved ones at home. It’s also the number one snack to buy to eat when traveling or exploring the island province..</arrowroot-cookies>
+
+				<place origin="santa-cruz">
+					<ungab-rock-formation>The Ungab Rock Formation is one of the most iconic natural landmarks of the province of Marinduque. Ungab Rock Formation is easily accessible through a pumpboat ride from the Buyabod Port of the municipality of Santa Cru</ungab-rock-formation>
+					<el-marinduquenos>Mongpong Island, a charming islet with striking rock formations and a pristine white-sand beach. It has clear blue waters where you can see through colorful reef fishes underwater</el-marinduquenos>
+                  <bagumbungan-cave>The Bagumbungan Cave. It is often compared to Sumaguing Cave in Sagada because of its stalactites and stalagmites in impressive shapes and forms. Bagumbungan Cave is a great spelunking spot that features magnificent rock formations.</bagumbungan-cave>
+                  <kawa-kawa-falls>Kawa -Kawa falls is located in Bangcuangan, Sta. Cruz, Marinduque. Kawa means basin because of a basin-like appearance..</kawa-kawa-falls>
+                  <palad-sand-bar>Maniwaya Island should be on top of your bucket list. It is one of the several islands in Marinduque dotting Santa Cruz town that can rival famous white-sand beaches in the Philippines.</palad-sand-bar>
+                  <hakupan-island>Hakuapan Island is Located in Barangay Botilao Santa Cruz Marinduque. it is the one pupolar tourist spot in Marinduque..</hakupan-island>
+                   <panuluyan>Panuluyan, Is located in Santa Cruz. Lodge. Farm. Brgy. Masalukot, Marinduque..</panuluyan>
+                   <holy-cross-parish>Holy Cross Parish is a Catholic church in Santa Cruz, Marinduque..</holy-cross-parish> <saint-josesh-the-worker-parish-church>Saint Joseph The Worker Parish is Located in Barngay Malabon, Santa Cruz, Marinduque.</saint-josesh-the-worker-parish-church>
+			       <robys-bakeshoppe>Robys Bakeshoppe is located in Quezon St. Brgy. Maharlika, Santa Cruz, Marinduque.</robys-bakeshoppe>
+                  <dewey-hotel-and-resort>Located in Dewey Street Santa Cruz, Marinduque Island Philippines.</dewey-hotel-and-resort>
+                	<villa-de-arco>Located in National Road Brgy. Banahaw, Santa Cruz, Marinduque.</villa-de-arco>
+				 <fun-island-regencia-hotel-and-resort>located at Lipa, Santa Cruz, Marinduque.</fun-island-regencia-hotel-and-resort>
+				 <ricos-inn>Located in Barangay Pag-asa, Santa Cruz, Santa Cruz, Marinduque.</ricos-inn>
+				
+				</place>
+				<festival origin="santa-cruz">
+					<ati-atihan-festival>Every Filipino awaits the Ati-Atihan festival as one of the most exciting events of the year. It is held every January in the town of santa cruz , as a way to honor Santo Niño (Infant Jesus). Despite its religious background, the festival is very colorful and full of entertainment. According to history, Aetas or Ati were the primary settlers of the islands of the Philippines. The festival usually includes tribal dancing and traditional music, performed by people wearing indigenous costumes and weapons. Also, there is a huge parade along the streets. Still, a key activity of the festival is the music of rhythmic and mesmerizing drums, which plays nonstop for several days.</ati-atihan-festival>
+					 <moriones-festival>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The Moriones are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals. The Moriones tradition has inspired the creation of other festivals in the Philippines where cultural practices is turned into street festivals.</moriones-festival>
+				</festival>
+			</santa-cruz>
+			<mogpog>
+				<food origin="mogpog"></food>
+				<dcm-bagoong-fish-sauce>Bagoóng made from fish is encompassed by the term bagoóng isdâ in Mogpog. They can be distinguished further by the type of fish they are made of.</dcm-bagoong-fish-sauce>
+
+				<place origin="mogpog"></place>
+				<luzon-datum>Known as Luzon Datum of 1911 or Station Balanacan, this piece of stone marker is located on top of a hill that locals call Mataas na Bundok or Mt. Mataas in Barangay Hinanggayon, town of Mogpog.</luzon-datum>
+				 <san-isidro-labrador-parish-church>Located in San Isidro Labrador Parish- Mogpog, Marinduque, Mogpog</san-isidro-labrador-parish-church>
+				  <paadjao-fall>Located in. Situated in Mogpog municipality.</paadjao-fall>
+
+				<festival origin="mogpog">
+					<kangga-festival>During the month of May, the people of the agricultural town of Mogpog in Marinduque celebrates their thanksgiving festival for their annual harvests in honor of their patron saint, San Isidro Labrador. The aim of this festival is to pay tribute to the saint and to the farmers who made a solemn effort on their land for numerous months. Kangga Festival was implemented by the local government which is celebrated annually to correspond with San Isidro Labrador’s feast day of May 13.“Kangga” in Marinduquenian Tagalog, is a sled made of bamboo usually carried by carabao. It is used by farmers to transport tools or harvests from their homes to the fields or to the market.</kangga-festival>
+					 <moriones-festival>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The Moriones are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals. The Moriones tradition has inspired the creation of other festivals in the Philippines where cultural practices is turned into street festivals.</moriones-festival>
+				</festival>
+			</mogpog>
 
 			<torrijos>
 				<food origin="torrijos">
@@ -170,7 +263,7 @@
 			<social-media link="3">Twitter</social-media>
 			<social-media link="4">LinkedIn</social-media>
 		</footer>
-	</explore>
+	</image></image></explore>
 
 	<about>
 
@@ -210,6 +303,26 @@
 
 	</about>
 
-	<contacts></contacts>
+	<contact>
+		<navigation no="1">Home</navigation>
+		<navigation no="2">Explore</navigation>
+		<navigation no="3">About</navigation>
+		<navigation no="4">Contacts</navigation>
+
+		<connect-with-us message ="left">
+			<text>Name</text>
+			<text>Email</text>
+			<text>PhoneNumber</text>
+			<text>Subject</text>
+			<text>Message</text>
+		</connect-with-us>
+
+      <connect-with-us contact="right">
+		<social-media>	marinduque@gmail.com</social-media>
+		<social-media>	www.marinduquetravel.com.ph</social-media>
+		<phone-number>	(+63) 966-1690-4201</phone-number>
+		<address>:	Street no. 123, Brgy.---- sitio ---- Santa Cruz, Marinduque- Philippines</address>
+</connect-with-us>
+	</contact>
 
 </travel-spot> 
