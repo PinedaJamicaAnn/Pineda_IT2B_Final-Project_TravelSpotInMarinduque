@@ -17,11 +17,10 @@
 			<h1 style=" font-size: 25px;">Travel Spot in Marinduque</h1>
 			<div class="nav-links" id="navLinks">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="explore.html">Explore</a></li>
-					<li><a href="feedback.html">Blogs</a></li>
-					<li><a href="contacts.html">Contacts</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="feedback.php">Blogs</a></li>
+					<li><a href="contacts.php">Contacts</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -51,7 +50,7 @@
 					echo '<span style="color: black; font-size: 9px;" >"A place where it is known for battle of Paye Site"</span><br><br>'
 					?>
 
-					<a href="boac_explore.html"><button class="button"> EXPLORE </button></a>
+					<a href="boac-explore.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -66,7 +65,7 @@
                       echo '<span  style="color: black; font-size: 9px;" >"Known for its biggest Lenten Festival, the Moriones"</span><br><br>'
 					?>
 				
-					<a href="sta_explore.html"><button class="button"> EXPLORE </button></a>
+					<a href="sta-explore.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -81,7 +80,7 @@
                     echo '<span style= "color: black; font-size: 9px;" >"Where the Moriones Fetival orinated from."</span><br><br>'
 
 					?>
-					<a href="mogpog_explore.html"><button class="button"> EXPLORE </button></a>
+					<a href="mogpog-explore.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -96,7 +95,7 @@
 					echo '<span style="color: black; font-size: 9px;" >"Known for its white sand beaches, specifically the Poctoy White Beach"</span><br><br>';
                     ?>
 
-					<a href="torrijos_explore.html"><button class="button"> EXPLORE </button></a>
+					<a href="torrijos.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -111,7 +110,7 @@
 					echo '<span style="color: black; font-size: 9px;" > "Home of best tourist spot in Marinduque" </span><br><br>';
                   ?>
 
-					<a href="gasan_explore.html"><button class="button"> EXPLORE </button></a>
+					<a href="gasan.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -127,7 +126,7 @@
 					echo '<span style="color: black; font-size: 9px;" >" Where MT. Malindig looms over"</span><br><br>';
                      ?>
 
-					<a href="buenavista_explore.html"><button class="button"> EXPLORE </button></a>
+					<a href="buenavista.php"><button class="button"> EXPLORE </button></a>
 				
 				</div>
 			</div>

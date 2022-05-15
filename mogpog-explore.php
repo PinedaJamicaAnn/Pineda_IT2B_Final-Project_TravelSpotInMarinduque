@@ -16,11 +16,10 @@
 			<h1 style=" font-size: 25px;">Travel Spot in Marinduque</h1>
 			<div class="nav-links" id="navLinks">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="explore.html">Explore</a></li>
-					<li><a href="feedback.html">Blogs</a></li>
-					<li><a href="contacts.html">Contacts</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="explore.php">Explore</a></li>
+					<li><a href="contacts.php">Contacts</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -44,7 +43,7 @@
 						echo '<span style="color: black; font-size: 12px;"> ' . "Discover the famous foods in Mogpog.".  '</span><br><br>';
 					 ?>
 
-					<a href="mogpog_food.html"><button class="button"> EXPLORE </button></a>
+					<a href="mogpog-food.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 
@@ -60,7 +59,7 @@
 						echo '<span style="color: black; font-size: 12px;"> ' . "Discover the best tourist spot that you can visit.".  '</span><br><br>';
 					?>
 
-					<a href="mogpog_place.html"><button class="button"> EXPLORE </button></a>
+					<a href="mogpog-place.php"><button class="button"> EXPLORE </button></a>
 				</div>
 			</div>
 			<div class="column" style="box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);">
@@ -75,7 +74,7 @@
 						echo '<span style="color: black; font-size: 12px;"> ' . "Discover the festivals held in Mogpog".  '</span><br><br>';
 					?>
 			
-					<a href="mogpog_fes.html"><button class="button"> EXPLORE </button></a>
+					<a href="mogpog-fes.php"><button class="button"> EXPLORE </button></a>
 				</div>
 				</div>
 			</div>
